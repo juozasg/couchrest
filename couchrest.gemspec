@@ -1,10 +1,10 @@
 Gem::Specification.new do |s|
   s.extra_rdoc_files = ["README.rdoc", "LICENSE", "THANKS"]
-  s.date = "Sat Nov 22 00:00:00 -0800 2008"
+  s.date = "Tue Oct 14 00:00:00 -0700 2008"
   s.executables = ["couchview", "couchdir", "couchapp"]
   s.authors = ["J. Chris Anderson"]
   s.required_rubygems_version = ">= 0"
-  s.version = "0.10.1"
+  s.version = "0.9.12"
   s.files = ["LICENSE",
  "README.rdoc",
  "Rakefile",
@@ -34,17 +34,13 @@ Gem::Specification.new do |s|
  "lib/couchrest/commands/push.rb",
  "lib/couchrest/core",
  "lib/couchrest/core/database.rb",
- "lib/couchrest/core/design.rb",
- "lib/couchrest/core/document.rb",
  "lib/couchrest/core/model.rb",
  "lib/couchrest/core/server.rb",
- "lib/couchrest/core/view.rb",
  "lib/couchrest/helper",
  "lib/couchrest/helper/file_manager.rb",
  "lib/couchrest/helper/pager.rb",
  "lib/couchrest/helper/streamer.rb",
  "lib/couchrest/helper/templates",
- "lib/couchrest/helper/templates/bar.txt",
  "lib/couchrest/helper/templates/example-map.js",
  "lib/couchrest/helper/templates/example-reduce.js",
  "lib/couchrest/helper/templates/index.html",
@@ -55,8 +51,6 @@ Gem::Specification.new do |s|
  "spec/couchrest/core",
  "spec/couchrest/core/couchrest_spec.rb",
  "spec/couchrest/core/database_spec.rb",
- "spec/couchrest/core/design_spec.rb",
- "spec/couchrest/core/document_spec.rb",
  "spec/couchrest/core/model_spec.rb",
  "spec/couchrest/helpers",
  "spec/couchrest/helpers/file_manager_spec.rb",
@@ -66,6 +60,19 @@ Gem::Specification.new do |s|
  "spec/fixtures/attachments",
  "spec/fixtures/attachments/couchdb.png",
  "spec/fixtures/attachments/test.html",
+ "spec/fixtures/couchapp",
+ "spec/fixtures/couchapp/attachments",
+ "spec/fixtures/couchapp/attachments/index.html",
+ "spec/fixtures/couchapp/views",
+ "spec/fixtures/couchapp/views/example-map.js",
+ "spec/fixtures/couchapp/views/example-reduce.js",
+ "spec/fixtures/couchapp-test",
+ "spec/fixtures/couchapp-test/my-app",
+ "spec/fixtures/couchapp-test/my-app/attachments",
+ "spec/fixtures/couchapp-test/my-app/attachments/index.html",
+ "spec/fixtures/couchapp-test/my-app/views",
+ "spec/fixtures/couchapp-test/my-app/views/example-map.js",
+ "spec/fixtures/couchapp-test/my-app/views/example-reduce.js",
  "spec/fixtures/views",
  "spec/fixtures/views/lib.js",
  "spec/fixtures/views/test_view",
@@ -88,7 +95,7 @@ Gem::Specification.new do |s|
   s.homepage = "http://github.com/jchris/couchrest"
   s.platform = "ruby"
   s.summary = "Lean and RESTful interface to CouchDB."
-  s.description = "This is a gem generation test."
+  s.description = "CouchRest provides a simple interface on top of CouchDB's RESTful HTTP API, as well as including some utility scripts for managing views and attachments."
   s.add_dependency "json", [">= 1.1.2"]
   s.add_dependency "rest-client", [">= 0.5"]
   s.add_dependency "extlib", [">= 0.9.6"]
