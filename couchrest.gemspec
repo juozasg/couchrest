@@ -1,7 +1,7 @@
 Gem::Specification.new do |s|
   s.extra_rdoc_files = ["README.rdoc", "LICENSE", "THANKS"]
-  s.date = "Sat Nov 22 00:00:00 -0800 2008"
-  s.executables = ["couchview", "couchdir", "couchapp"]
+#  s.date = "Sat Nov 22 00:00:00 -0800 2008"
+#  s.executables = ["couchview", "couchdir", "couchapp"]
   s.authors = ["J. Chris Anderson"]
   s.required_rubygems_version = ">= 0"
   s.version = "0.10.13"
