@@ -4,7 +4,7 @@ Gem::Specification.new do |s|
   s.executables = ["couchview", "couchdir", "couchapp"]
   s.authors = ["J. Chris Anderson"]
   s.required_rubygems_version = ">= 0"
-  s.version = "0.9.12"
+  s.version = "0.10.12"
   s.files = ["LICENSE",
  "README.rdoc",
  "Rakefile",
