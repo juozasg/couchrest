@@ -88,7 +88,7 @@ Gem::Specification.new do |s|
   s.homepage = "http://github.com/jchris/couchrest"
   s.platform = "ruby"
   s.summary = "Lean and RESTful interface to CouchDB."
-  s.description = "CouchRest provides a simple interface on top of CouchDB's RESTful HTTP API, as well as including some utility scripts for managing views and attachments."
+  s.description = "This is a gem generation test."
   s.add_dependency "json", [">= 1.1.2"]
   s.add_dependency "rest-client", [">= 0.5"]
   s.add_dependency "extlib", [">= 0.9.6"]
